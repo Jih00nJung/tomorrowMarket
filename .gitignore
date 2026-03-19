@@ -1,14 +1,13 @@
-# Compiled class file
 *.class
-
-# Log file
 *.log
-
-# BlueJ files
 *.ctxt
-
-# Mobile Tools for Java (J2ME)
 .mtj.tmp/
+*.lock
+*.bin
+*.probe
+
+*.properties
+!BackEnd/src/main/resources/application.properties
 
 # Package Files #
 *.jar
@@ -19,6 +18,25 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+backend/.gradle/
+backend/build/
+backend/out/
+backend/bin/
+
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# IntelliJ IDEA 설정 파일
+.idea/
+*.iml
+out/
+gen/
+
+# 파일 보안 설정
+.env
+backend/src/main/resources/application-local.properties
+
